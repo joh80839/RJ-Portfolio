@@ -119,7 +119,7 @@ button {
  }
 
 .button-04:hover {
-    transform: rotate(360deg);
+    transform: rotate(720deg);
  }
 
  .button-05 {
