@@ -129,7 +129,7 @@ button {
     transition: transform 0.5s ease; 
  }
 
-.button-01:hover {
+.button-05.button-01 {
     transform: translateX(40px)
  }
 
