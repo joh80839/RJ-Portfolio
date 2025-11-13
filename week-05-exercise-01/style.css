@@ -126,12 +126,11 @@ button {
     color: #ffffff;
     padding: 16px 32px;
     border: 2px solid #0066CC;
-    transition: transform 0.3s ease; 
-    transform-origin: center;
+    transition: transform 0.5s ease; 
  }
 
 .button-05:hover {
-    transform: 
+    transform: translateX(40px)
  }
 
  .button-06 {
