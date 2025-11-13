@@ -115,7 +115,7 @@ button {
     padding: 16px 32px;
     border: 2px solid #0e6027;
     display: inline-block;   
-    transition: transform 0.3s ease;
+    transition: transform 0.5s ease;
  }
 
 .button-04:hover {
@@ -127,6 +127,10 @@ button {
     color: #ffffff;
     padding: 16px 32px;
     border: 2px solid #0066CC;
+ }
+
+.button-04:hover {
+    transform:
  }
 
  .button-06 {
