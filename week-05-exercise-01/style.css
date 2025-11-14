@@ -138,10 +138,9 @@ button {
     color: #ffffff;
     padding: 16px 32px;
     border: 2px solid #0e6027;
-    transition: color 0.3s ease;
+    transition: transform 0.3s ease;
  }
 
  .button-06:hover {
-    color:black;
-    transform:
+    transform: scale(0.9);
  }
