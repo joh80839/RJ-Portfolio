@@ -169,19 +169,3 @@ code {
 .nav-centered a:hover {
   background-color: green; 
 }
-
-
-
-.nav-custom {}
-
-.nav-custom ul {}
-
-.nav-custom li {}
-
-.nav-custom a {}
-
-.nav-custom a:hover {}
-
-@media (width >=480px) {}
-
-@media (width >=1024px) {}
