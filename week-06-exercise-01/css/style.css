@@ -149,12 +149,28 @@ code {
 
 .nav-centered ul {
   display: flex;
+  list-style: none; 
   justify-content: center;
 }
 
 .nav-centered li {
   margin: 0 20px;
 }
+
+.nav-centered a {
+  display: block;
+  padding: 10px 20px;
+  border: 1px solid #ccc;   
+  background-color: #fff;
+  text-decoration: none;
+  color: black;
+}
+
+.nav-centered a:hover {
+  background-color: green; 
+}
+
+
 
 .nav-custom {}
 
