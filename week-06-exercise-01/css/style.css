@@ -147,6 +147,15 @@ code {
   margin-top: 80px;
 }
 
+.nav-centered ul {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-centered li {
+  margin: 0 20px;
+}
+
 .nav-custom {}
 
 .nav-custom ul {}
