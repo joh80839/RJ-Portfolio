@@ -9,7 +9,7 @@ body {
   font-size: 16px;
   line-height: 2;
   color: #111111;
-  background-color: #ffffff;
+  background-color: #e8f5e9;;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -32,14 +32,6 @@ h1 {
   margin-bottom: 24px;
   padding-bottom: 48px;
   border-bottom: 1px solid rgba(0, 0, 0, 1);
-}
-
-p {
-  margin-bottom: 16px;
-}
-
-.nav-simple+main {
-  margin-left: 232px;
 }
 
 .nav-horizontal {
@@ -79,4 +71,61 @@ p {
 
 .nav-horizontal+main {
   margin-top: 80px;
+}
+
+section {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 4px solid #43a047;
+}
+
+#contact h2 {
+    text-decoration: underline;
+    margin-top: -20px;
+}
+
+#contact p {
+  margin-bottom: 4px;
+}
+
+footer {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  font-size: 16px;
+}
+
+#image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 48px auto;
+    max-width: 300px;
+    object-fit: contain;
+
+}
+
+.image1 {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 64px auto;
+    max-width: 300px;
+    object-fit: contain;
+}
+
+.hobby-images {
+  display: flex;
+  justify-content: space-between; 
+  align-items: flex-start;
+  max-width: 600px;              
+  margin: 40px auto;              
+}
+
+.hobby-images img {
+  width: 250px;   
+  height: auto;
+  display: block;
 }
